@@ -1,0 +1,183 @@
+
+Xcursor.theme: Vanilla-DMZ-AA
+Xcursor.size: 48
+
+!Xft.dpi: 100
+!Xft.dpi: 75
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcdlegacy
+Xft.rgba: rgb
+!Xft.hintstyle: hintslight
+Xft.autohint: false
+
+!0/8  black
+!1/9 red
+!2/10 green
+!3/11 yellow
+!4/12 blue
+!5/13 magenta
+!6/14 cyan
+!7 15 white
+
+
+! ---------[ xterm ] ---------
+xterm*loginShell:false
+xterm*foreground: #383838
+!xterm*background: #f5f5f5
+xterm*background: #eeeeee
+xterm*shading: 50
+xterm*color0:         #000000
+xterm*color1:         #d92c30
+xterm*color2:         #1cae75
+xterm*color3:        #bc9a20
+xterm*color4:         #252574
+xterm*color5:         #963c59
+xterm*color6:         #418179
+xterm*color7:         gray
+xterm*color8:         gray40
+xterm*color9:         #d25f50
+! xterm*color10:         #5e83b1
+xterm*color11:        #fd9b43
+xterm*color12:        #335d85
+xterm.color13:        #d53d7a
+xterm*color14:        #389fa0
+! xterm*color15:        #4daca3
+
+xterm*faceName:       Bleed 2
+xterm*faceSize:       10
+xterm*font:		fixed
+!xterm*geometry:	      90x22
+xterm*geometry:	      145x35
+!xterm*font	:-artwiz-drift-medium-r-normal-*-*-110-*-*-m-*-iso10646-1
+xterm*scrollBar:	  false
+xterm*saveLines:	2048
+
+xterm*jumpScroll: true
+xterm*multiScroll: true
+
+!XTerm*metaSendsEscape: true
+
+! ---------[ xosview ] ---------
+xosview*borderwidth: 0
+xosview*foreground: black
+xosview*transparent: True
+xosview*background: #c6c3c6
+xosview*meterLabelColor: #555555
+xosview*usedLabelColor: #000000
+
+xosview*cpuUserColor: #666666
+xosview*cpuNiceColor: #b5aeff
+xosview*cpuSystemColor: #7ec0ee
+xosview*cpuInterruptColor: #ffe4b5
+xosview*cpuFreeColor: #f7f7f7
+xosview*cpuDecay: True
+xosview*cpuGraph: True
+xosview*cpuPriority: 2
+
+xosview*memFreeColor: #f7f7f7
+xosview*memInactiveColor: #bebebf
+xosview*memUsedColor: #bebebe
+xosview*memBufferColor: #a80e0e
+xosview*memCacheColor: #67696b
+xosview*memSharedColor: #42506e
+xosview*memTextColor: #42506e
+xosview*memOtherColor: #42506e
+xosview*memActiveColor: #42506e
+
+xosview*netBackground: #f7f7f7
+xosview*netInColor: #393749
+xosview*netOutColor: #67696b
+xosview*netBandwidth: 75000
+xosview*netDecay: True
+xosview*netGraph: True
+
+xosview*swapFreeColor: #c6cbd6
+xosview*swapUsedColor: #7ec0ee
+
+xosview*diskIdleColor: #f7f7f7
+xosview*diskReadColor: #a01616
+xosview*diskWriteColor: #475864
+xosview*diskUsedColor: #666666
+xosview*diskGraph: True
+xosview*diskDecay: True
+
+xosview*loadProcColor: #c6cbd6
+xosview*loadIdleColor: #7ec0ee
+
+xosview*batteryLeftColor:   #f5de4e
+xosview*batteryUsedColor:   #f7f7f7
+xosview*batteryPriority:    50
+xosview*batteryUsedFormat:  percent
+
+! ---------[ rxvt ] ---------
+
+Rxvt*loginShell: false
+Rxvt*foreground: #383838
+!Rxvt*background: #f5f5f5
+Rxvt*background: #eeeeee
+Rxvt*shading: 50
+
+Rxvt*color0:         #000000
+Rxvt*color1:         #d92c30
+Rxvt*color2:         #1cae75
+Rxvt*color3:        #bc9a20
+Rxvt*color4:         #252574
+Rxvt*color5:         #963c59
+Rxvt*color6:         #418179
+Rxvt*color7:         gray
+Rxvt*color8:         gray40
+Rxvt*color9:         #d25f50
+!Rxvt*color10:         #5e83b1
+Rxvt*color11:        #fd9b43
+Rxvt*color12:        #335d85
+Rxvt.color13:        #d53d7a
+Rxvt*color14:        #389fa0
+!Rxvt*color15:        #4daca3
+Rxvt*faceName:       Bleed 2
+
+!Rxvt*faceSize:       7
+!Rxvt*font:		fixed
+!Rxvt*geometry:	      90x22
+Rxvt*geometry:	      145x35
+!rxvt*font	:-artwiz-drift-medium-r-normal-*-*-110-*-*-m-*-iso10646-1
+Rxvt*scrollBar:	  false
+Rxvt*saveLines:	2048
+Rxvt*jumpScroll: true
+
+! good for screen and the like:
+URxvt.secondaryScroll:          true
+URxvt.loginShell:               false
+URxvt*termName:			xterm
+URxvt*scrollTtyOutput:          False
+URxvt*scrollTtyKeypress:        True
+URxvt*scrollWithBuffer:         True
+
+!URxvt*visualBell: false
+
+!URxvt*font: xft:KAPL:pixelsize=16:autohint=true
+!URxvt*font: xft:Bitstream Vera Sans Mono:pixelsize=11
+URxvt.font: xft:Source Code Pro:pixelsize=11
+!URxvt.boldItalicFont: xft:Source Code Pro:bold:pixelsize=11
+!URxvt.italicFont:        xft:Bitstream Vera Sans Mono:italic:autohint=true
+!URxvt.boldItalicFont:    xft:Bitstream Vera Sans Mono:bold:italic:autohint=true
+
+
+! ---------[ xpdf ] ---------
+
+xpdf*enableFreetype: yes
+xpdf*antialias: yes
+!xpdf*foreground: slategrey
+!xpdf*foreground: black
+!xpdf*background: gainsboro
+!xpdf*background: white
+xpdf*urlCommand: /usr/bin/firefox %s
+!xpdf.initialZoom: page
+!xpdf.paperColor: Gray90
+xpdf.background: SlateGray
+xpdf.foreground: Black
+xpdf.t1libControl: plain
+
+emacs.geometry:	      80x55

@@ -1,0 +1,11 @@
+
+[default]
+# Write your default config options here!
+#vo=xv
+vo=gl_nosw
+#vo=gl2
+ao=pulse
+
+[gnome-mplayer]
+msglevel=all=5
+ao=pulse
